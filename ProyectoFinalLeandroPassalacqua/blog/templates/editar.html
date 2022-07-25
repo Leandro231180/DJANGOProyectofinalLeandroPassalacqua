@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% load static%}
+{% block content %}
+
+
+    <h1>ESTO ES EL LISTVIEW</h1>
+    <table>
+    <ul>
+    {% for title in object_list %}
+    <li>
+    <img src="{{title.image.url}}" alt="{{title.title}}" width="5%" height="5%">  
+    {{title.title}}
+    {{title.description }}
+   
+    {{title.date }}
+
+    
+
+    
+   
+    
+    
+    {% endfor %}
+</table>
+    </ul>
+
+{% endblock %}

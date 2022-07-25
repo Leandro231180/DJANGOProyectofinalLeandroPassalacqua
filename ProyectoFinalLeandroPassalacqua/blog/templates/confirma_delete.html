@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete {{post.title}}</title>
+</head>
+<body>
+    
+
+        <form action="POST">{% csrf_token %}
+           
+            
+            Estas seguro de borrar el Post '{{ object }}''{{posts.title}}'
+
+        <button class="btn btn-secondary">CONFIRMAR BORRAR</button>
+
+        </form>
+
+
+</body>
+</html>
+{% endblock %}
