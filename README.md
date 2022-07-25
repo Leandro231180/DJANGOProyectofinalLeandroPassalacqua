@@ -6,5 +6,5 @@ Una vez logueado y con los suficientes permisos puede realizar el CRUD completeo
 Los posteos admiten 4 campos titulo, descripcion, imagen y fecha.
 El boton del loguin  es accesible mientras no se este logueado, una vez logueado aparece el boton de logout.
 Tambien muestra una imagen usada como un avatar. 
-
+El video del funcionamiento puede verse en el siguiente link de youtube.
 https://www.youtube.com/watch?v=jDLpVibjNwc
